@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="icon" href="lol.jpeg" type="image/icon type">
+	<title>Red Room</title>
+	<link rel="stylesheet" href="style.css">
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Retrieve the background image URL from localStorage
+        const backgroundImage = localStorage.getItem('selectedCharacterBackground');
+
+        // If a background image URL exists, apply it to the body
+        if (backgroundImage) {
+            document.body.style.backgroundImage = backgroundImage;
+            document.body.style.backgroundSize = 'cover'; // Optional: covers the whole page
+            document.body.style.backgroundRepeat = 'no-repeat';
+            document.body.style.backgroundPosition = 'center'; // Optional: centers the background
+        }
+    });
+</script>
+
+</head>
+	<div class="header">
+       		<center><img src="dark.jpeg" alt="GHOST STORE"></center>
+	<div class="ico">
+		<button id="button2" onclick="window.location.href='D:/Desktop/Red%20Room/login_page/val.html';">Log Out</button>
+		<img id="pro" src="pro.png" alt="profile">
+
+	</div>
+    	</div>
+	<div class="navbar">
+        	<a href="#">Store</a>
+        	<a href="#">Upcoming</a>
+        	<a href="#">Character Selection</a>
+        	<a href="#">Search</a>
+        	<a href="#">Contact</a>
+   	</div>
+	<center><h3>ENTER THE RED ROOM: UNLEASH YOUR PASSION!</h3></center>
+	<br>
+	<div class="container">
+		<br>
+		<h2><center>PAYMENT DETAILS</center></h2>
+		<br>
+		<table style="color: #e3434d; font-size:18px; width:100%; text-align:center;">
+			<tr>
+				<td> Card Payment </td>
+				<td><input type="radio" name="payment" value="card"></td>
+			</tr>			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+
+			<tr>
+				<td> Card Number : </td>
+				<td><input type="text" id="cardno"></td>
+			</tr>
+			<tr>
+				<td> Card Name : </td>
+				<td><input type="text" id="cardname"></td>
+			</tr>
+			<tr>
+				<td> Expiration : </td>
+				<td><input type="text" id="cardno"></td>
+			</tr>
+			<tr>
+				<td> CVV : </td>
+				<td><input type="phone" id="cardno"></td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td> UPI Payment </td>
+				<td><input type="radio" name="payment" value="upi"></td>
+			</tr>
+			<tr>
+				<td> UPI ID : </td>
+				<td><input type="text" id="upiid"></td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan=2> Save this payment method for future purchases? </td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td> &nbsp;</td>
+				<td><input type="radio" name="choice" value="no"> No &nbsp;  <input type="radio" name="choice" value="yes"> Yes</td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan=2><button onclick="purchase()" style="width: 100px; height: 35px; border-radius: 8px; align-items: center; border: none; cursor: pointer; margin: 0 5px; border: 1px solid #000;	transition: 0.3s; left: 80%; background-color:#e3434d;">BUY</button> </td>
+			</tr>
+		</table>	
+	</div>
+	<div class="overlay" id="popupOverlay">
+		<div class="popup">
+			<p style="color:#e3434d;">Thank you for your purchase. The game code has been sent to your registered email ID.</p>
+		<br>
+		<br>
+		<a href="D:\Desktop\Red Room\Home\Gaming Store.html">
+		<button style="width: 100px; height: 35px; border-radius: 8px; align-items: center; border: none; cursor: pointer; margin: 0 5px; border: 1px solid #000;	transition: 0.3s; left: 80%; background-color:#e3434d;">Continue Browsing</button></a>
+		</div>
+	</div>
+
+<body>
+	<script>
+		function purchase() {
+			document.getElementById("popupOverlay").style.display = "flex";
+		}
+	</script>
+</body>
+</html>
+
+

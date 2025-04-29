@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />	
+
+	<link rel="icon" href="lol.jpeg" type="image/icon type">
+	<title>Red Room</title>
+	<link rel="stylesheet" href="style.css">
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Retrieve the background image URL from localStorage
+        const backgroundImage = localStorage.getItem('selectedCharacterBackground');
+
+        // If a background image URL exists, apply it to the body
+        if (backgroundImage) {
+            document.body.style.backgroundImage = backgroundImage;
+            document.body.style.backgroundSize = 'cover'; // Optional: covers the whole page
+            document.body.style.backgroundRepeat = 'no-repeat';
+            document.body.style.backgroundPosition = 'center'; // Optional: centers the background
+        }
+    });
+</script>
+
+</head>
+<body>
+		<div class="header">
+       		<center><img src="dark.jpeg" alt="GHOST STORE"></center>
+		<div class="ico">
+			<button id="button2" onclick="window.location.href='D:/Desktop/Red%20Room/login_page/val.html';">Log Out</button>
+			<img id="pro" src="pro.png" alt="profile">
+		</div>
+    	</div>
+	<div class="navbar">
+        	<a href="#" id="store">Store</a>
+        	<a href="D:\Desktop\Red Room\Gameplay\Gameplay.html">Gameplay</a>
+        	<a href="D:\Desktop\Red Room\Character Selection\ch.html">Character Selection</a>
+        	<a href="D:\Desktop\Red Room\Search\search.html">Search</a>
+        	<a href="D:\Desktop\Red Room\about\about.html">About Us</a>
+   	</div>
+	<center><h3>ENTER THE RED ROOM: UNLEASH YOUR PASSION!</h3></center>
+		<div class="container">
+
+		<div class="slider">
+
+			<div class="item" style="background-image: url(img1.png);">
+				<div class="content">
+				 <div class="description-wrapper">
+					<div class="name">GTA 5</div>
+					<div class="des">Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. </div>
+					<a href="D:\Desktop\Red Room\games\gta.html">
+					<button>See More</button>
+					</a>
+				 </div>
+				</div>
+			</div>
+			<div class="item" style="background-image: url(img2.jpg);">
+				<div class="content">
+				  <div class="description-wrapper">
+					<div class="name">MAFIA II</div>
+					<div class="des">Mafia II is a 2010 action-adventure game developed by 2K Czech and published by 2K.</div>
+					<a href="D:\Desktop\Red Room\games\mafia2.html">
+					<button>See More</button>
+					</a>
+				  </div>
+				</div>
+			</div>
+			<div class="item" style="background-image: url(img3.jpg);">
+				<div class="content">
+				  <div class="description-wrapper">
+					<div class="name">Sleeping Dogs</div>
+					<div class="des">Sleeping Dogs is a 2012 action-adventure game developed by United Front Games and published by Square Enix.</div>
+					<a href="D:\Desktop\Red Room\games\sleeping.html">
+					<button>See More</button>
+					</a>
+				  </div>
+				</div>
+			</div>
+			<div class="item" style="background-image: url(img4.jpg);">
+				<div class="content">
+				  <div class="description-wrapper">
+					<div class="name">Cyberpunk 2077</div>
+					<div class="des">Cyberpunk 2077 is a 2020 action role-playing game developed by the Polish studio CD Projekt Red, and published by CD Projekt, and based on Mike Pondsmith's Cyberpunk tabletop game series.</div>
+					<a href="D:\Desktop\Red Room\games\cyber.html">
+					<button>See More</button>
+					</a>
+				  </div>
+				</div>
+			</div>
+
+			<div class="item" style="background-image: url(img5.jpg);">
+				<div class="content">
+				  <div class="description-wrapper">
+					<div class="name">Watch Dogs</div>
+					<div class="des">Watch Dogs is an action-adventure video game franchise published by Ubisoft, and developed primarily by its Montreal and Toronto studios using the Disrupt game engine.</div>
+					<a href="D:\Desktop\Red Room\games\watch.html">
+					<button>See More</button>
+					</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<div class="button">
+			<button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+			<button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+		</div>
+	</div>
+	<center><h2 class="sale">DISCOUNT SALE</h2></center>
+	<div class="list">
+		<div class="items">
+			<a href="D:\Desktop\Red Room\games\gta.html">
+				<img src="x1.png" alt="GTA%" class="poster">
+				 <div class="discount">50%</div>
+
+			</a>
+		</div>
+		
+
+		<div class="items">
+			<a href="D:\Desktop\Red Room\games\mafia2.html">
+				<img src="x2.jpg" alt="M2" class="poster">
+				<div class="discount">22%</div>
+			</a>
+		</div>
+			<div class="items">
+			<a href="D:\Desktop\Red Room\games\sleeping.html">
+				<img src="x3.jpg" alt="SD" class="poster">
+				<div class="discount">17%</div>
+			</a>
+		</div>
+		<div class="items">
+			<a href="D:\Desktop\Red Room\games\cyber.html">
+				<img src="x4.jpg" alt="CP" class="poster">
+				<div class="discount">62%</div>
+			</a>
+		</div>
+		<div class="items">
+			<a href="D:\Desktop\Red Room\games\watch.html">
+				<img src="x5.jpg" alt="WD" class="poster">
+				<div class="discount">88%</div>
+			</a>
+		</div>
+		<div class="items">
+			<a href="#">
+				<img src="x6.jpg" alt="Valorent" class="poster">
+				<div class="discount">17%</div>
+			</a>
+		</div>
+		<div class="items">
+			<a href="#">
+				<img src="x7.jpg" alt="Little Nightmares III" class="poster">
+				<div class="discount">28%</div>
+			</a>
+		</div>
+		<div class="items">
+			<a href="#">
+				<img src="x8.jpg" alt="Sekiro" class="poster">
+				<div class="discount">14%</div>
+			</a>
+		</div>
+		<div class="items">
+			<a href="#">
+				<img src="x9.jpg" alt="Mortury Assistant" class="poster">
+				<div class="discount">14%</div>
+			</a>
+		</div>
+		<div class="items">
+			<a href="#">
+				<img src="x1.png" alt="GTA%" class="poster">
+				<div class="discount">50%</div>
+			</a>
+		</div>
+		<div class="items">
+			<a href="#">
+				<img src="x2.jpg" alt="M2" class="poster">
+				<div class="discount">22%</div>
+			</a>
+		</div>
+
+
+	</div>
+
+
+
+
+
+
+<div class="container-2">
+    <!-- Top Sellers Column -->
+    <div class="column">
+        <h2>Top Sellers</h2>
+        <div class="item2">
+	<a href="D:\Desktop\Red Room\games\gta.html">
+            <img src="x1.png" alt="GTA V" class="game">
+	</a>
+            <div>
+		<a href="D:\Desktop\Red Room\games\gta.html">
+                <div class="item-title">GTA V</div>
+		</a>
+		<br>
+		<a href="D:\Desktop\Red Room\games\gta.html">
+                <div class="price">₹1,789</div>
+		</a>
+            </div>
+	
+        </div>
+	<br>
+        <div class="item2">
+	    <a href="D:\Desktop\Red Room\games\cyber.html">
+            <img src="x4.jpg" alt="Cyberpunk" class="game">
+	    </a>
+            <div>
+		<a href="D:\Desktop\Red Room\games\cyber.html">
+                <div class="item-title">Cyberpunk</div>
+		</a>
+		<br>
+		<a href="D:\Desktop\Red Room\games\cyber.html">
+                <div class="price">₹3,999 <span class="status">Trial Available</span></div>
+		</a>
+            </div>
+        </div>
+	<br>
+        <div class="item2">
+            <img src="x16.jpg" alt="Black Myth Wukong" class="game">
+            <div>
+                <div class="item-title">Black Myth Wukong</div>
+		<br>
+                <div class="price">₹3,999</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Most Played Column -->
+    <div class="column">
+        <h2>Most Played</h2>
+        <div class="item2">
+	<a href="D:\Desktop\Red Room\games\gta.html">
+            <img src="x1.png" alt="GTA V" class="game">
+	</a>
+            <div>
+		<a href="D:\Desktop\Red Room\games\gta.html">
+                <div class="item-title">GTA V</div>
+		</a>
+		<br>
+		<a href="D:\Desktop\Red Room\games\gta.html">
+                <div class="price">₹1,789</div>
+		</a>
+            </div>
+	
+        </div>
+	<br>
+	<div class="item2">
+             <img src="x14.jpg" alt="GOT" class="game">
+            <div>
+                <div class="item-title">Ghost of Tsushima</div>
+		<br>
+                <div class="price">₹1,789</div>
+            </div>
+        </div>
+	<br>
+        <div class="item2">
+	    <a href="D:\Desktop\Red Room\games\watch.html">
+            <img src="x5.jpg" alt="Watch_Dogs" class="game">
+	    </a>
+            <div>
+		<a href="D:\Desktop\Red Room\games\watch.html">
+                <div class="item-title">Watch Dogs®</div>
+		</a>
+		<br>
+		<a href="D:\Desktop\Red Room\games\watch.html">
+                <div class="price">₹899</div>
+		</a>
+            </div>
+        </div>
+        <!-- Add more items as needed -->
+    </div>
+
+    <!-- Top Upcoming Wishlisted Column -->
+    <div class="column">
+        <h2>Top Upcoming</h2>
+        <div class="item2">
+            <img src="x12.jpg" alt="AC Shadows" class="game">
+            <div>
+                <div class="item-title">Assassins Creed Shadows</div>
+		<br>
+                <div class="upcoming">Available 12/06/24</div>
+            </div>
+        </div>
+	<br>
+        <div class="item2">
+            <img src="x13.jpg" alt="GOY" class="game">
+            <div>
+                <div class="item-title">Ghost of Yotei</div>
+		<br>
+                <div class="upcoming">Coming Soon</div>
+            </div>
+        </div>
+	<br>
+        <div class="item2">
+            <img src="x15.png" alt="Cerebrus" class="game">
+            <div>
+                <div class="item-title">Cerebrus : The Birth of Death®</div>
+		<br>
+                <div class="upcoming">Coming Soon</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+	<script src="app.js"></script>
+</body>
+</html>
+
+
